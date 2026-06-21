@@ -1,0 +1,21 @@
+# Resolución: Merge de Ranking de Pingpong
+
+**Nombre:** [Tu Nombre y Apellido]
+
+## Razonamiento del problema
+Para este ejercicio, he seguido el flujo de trabajo estándar de Git: crear una rama aislada para no afectar el desarrollo estable (`dev`), realizar el commit con la nueva funcionalidad y finalmente realizar la integración. El uso de `merge` permite combinar los cambios de forma controlada, manteniendo el historial del proyecto legible.
+
+## Pasos realizados
+1. Creación de rama: `feature/ranking-pingpong`.
+2. Commit con archivo `ranking.md` que incluye la tabla de posiciones.
+3. Integración a `dev` mediante `git merge`.
+
+## Evidencia de validación
+Salida del historial tras el merge:
+```bash
+git log --oneline --graph
+# * [id_merge] Merge branch 'feature/ranking-pingpong' into dev
+# |\  
+# | * [id_commit] feat: agregar ranking inicial de torneo de pingpong
+# |/  
+# * [id_anterior] (dev) Commit base previo...
