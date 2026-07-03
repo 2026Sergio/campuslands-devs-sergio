@@ -104,3 +104,4 @@ git commit -m "feat: agrega curaciones y utilidad al inventario"
 Este tercer commit completa el inventario agregando las dos categorías restantes. Se mantiene separado de las armas porque conceptualmente son grupos distintos (ofensivo vs. soporte/utilidad).
 
 ---
+
