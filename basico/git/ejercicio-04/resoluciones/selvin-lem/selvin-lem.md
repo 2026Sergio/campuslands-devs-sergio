@@ -86,3 +86,21 @@ Este primer commit contiene únicamente el esqueleto del inventario: las categor
 git add inventario.md
 git commit -m "feat: agrega seccion de armas al inventario"
 ```
+### Explicación
+
+Este segundo commit se enfoca exclusivamente en llenar la categoría de armas definida en el paso anterior. No toco ninguna otra sección, para que el commit represente un solo tipo de cambio.
+
+---
+
+### Paso 6: Agregar la sección de curaciones y utilidad
+
+### Contenido agregado a inventario.md
+```
+git add inventario.md
+git commit -m "feat: agrega curaciones y utilidad al inventario"
+```
+### Explicación
+
+Este tercer commit completa el inventario agregando las dos categorías restantes. Se mantiene separado de las armas porque conceptualmente son grupos distintos (ofensivo vs. soporte/utilidad).
+
+---
