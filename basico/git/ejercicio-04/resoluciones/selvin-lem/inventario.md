@@ -1,4 +1,13 @@
-### Comando
+# Inventario - Battle Royale
 
-git add inventario.md
-git commit -m "feat: agrega estructura base del inventario"
+## Estructura General
+
+- Categoría: Armas
+- Categoría: Curaciones
+- Categoría: Utilidad
+
+## Armas
+
+- Rifle de asalto AK-47
+- Escopeta táctica
+- Pistola silenciada

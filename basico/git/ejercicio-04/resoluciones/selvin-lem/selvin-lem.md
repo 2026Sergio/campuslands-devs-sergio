@@ -66,3 +66,23 @@ Sigo el formato obligatorio indicado en las instrucciones (`nombre-apellido/`), 
 
 ### Contenido inicial de inventario.md
 
+### Comando
+```
+git add inventario.md
+git commit -m "feat: agrega estructura base del inventario"
+```
+### Explicación
+
+Este primer commit contiene únicamente el esqueleto del inventario: las categorías que existirán, sin detalle todavía. Es un cambio lógico y aislado: define el "qué" antes del "cómo".
+
+---
+
+### Paso 5: Agregar la sección de armas
+
+### Contenido agregado a inventario.md
+
+### Comando
+```
+git add inventario.md
+git commit -m "feat: agrega seccion de armas al inventario"
+```
